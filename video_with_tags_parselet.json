@@ -1,0 +1,9 @@
+{
+    "title": "#eow-title",
+    "description": "#eow-description",
+    "likes": "#watch-like .yt-uix-button-content",
+    "dislikes": "#watch-dislike .yt-uix-button-content",
+    "published": "//meta[@itemprop='datePublished']/@content",
+    "duration": "user:duration(//meta[@itemprop='duration']/@content)",
+    "tags": ["//meta[@property='og:video:tag']/@content"]
+}
